@@ -1,0 +1,51 @@
+
+
+#searchFormDiv {
+    border: solid 1px rgba(50, 50, 50, .3);
+}
+
+#resultsFormDiv {
+    border: solid 1px rgba(50, 50, 50, .3);
+    padding: 10px;
+}
+
+#mapImageDiv {
+    border: solid 1px rgba(50, 50, 50, .3);
+    margin-top: -190px;
+    margin-left: -10px;
+    padding: 5px;
+    text-align: center;
+}
+
+#mapImage {
+    height: 770px;
+    width: 125%;
+}
+
+#mapThumbnail {
+    margin-top: -190px;
+    margin-left: -10px;
+    background-color: rgba(200, 200, 200, .3);
+}
+
+#mapThumbnail img {
+    width: 100%;
+}
+
+#mapThumbnail hr {
+    margin-top: -1px;
+}
+
+
+
+@media screen and (max-width:991px) {
+    #mapImageDiv {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    #mapThumbnail {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
